@@ -4,6 +4,7 @@ from django.db import models
 
 class Author(models.Model):
     name = models.CharField
+    return self.name
 
 class Book(models.Model):
     title = models.CharField
