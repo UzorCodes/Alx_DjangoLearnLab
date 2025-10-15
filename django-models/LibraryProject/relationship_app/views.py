@@ -17,7 +17,7 @@ def book_list(request):
 class BookDetailView(DetailView):
   """A class-based view for displaying details of a specific book."""
   model = Book
-  template_name = 'relationship_app/list_books.html'
+  template_name = 'relationship_app/library_detail.html'
 
   def get_context_data(self, **kwargs):
     """Injects additional context data specific to the book."""
